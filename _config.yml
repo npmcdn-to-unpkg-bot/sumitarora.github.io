@@ -5,7 +5,7 @@ locale: en_US
 # description: Describe your website here.
 # logo: site-logo.png
 search: true
-url: http://www.arorasumit.com/
+url: http://www.arorasumit.com
 
 # Jekyll configuration
 
@@ -41,7 +41,7 @@ owner:
   # facebook: #username
   github: sumitarora
   # stackexchange: #http://stackoverflow.com/users/123456/username
-  # linkedin: #username
+  linkedin: arorasumit85
   # instagram: #username
   # flickr: #username
   # tumblr: #username
