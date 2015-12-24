@@ -1,60 +1,30 @@
-# Bootstrap 3 Starter Theme for Jekyll
+# So Simple Theme
 
-![Bootstrap 3 Jekyll](https://scotch.io/wp-content/uploads/2015/10/bootstrap-plus-jekyll.png)
+Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
 
-* [Demo](http://scotch-io.github.io)
-* [Read the Jekyll Tutorial](https://scotch.io/tutorials/getting-started-with-jekyll-plus-a-free-bootstrap-3-starter-theme)
+**Jekyll 3 Update:** A version of So Simple compatible with Jekyll 3 can be found in the [`jekyll3` branch](https://github.com/mmistakes/so-simple-theme/tree/jekyll3). GitHub Pages is [locked at version 2.4](https://pages.github.com/versions/) so some keep that in mind if you're trying to use 3.0 features that aren't supported there yet.
 
-## WTF?
+## So Simple Theme is all about:
 
-Jekyll is a simple and blog-aware static site generator built in Ruby. In laymen terms, it's just a tool to let you have **all the cool features of a full-blown CMS without having to worry about managing a database**. This means hosting is *extremely easy* and *scalable* since all you're doing is managing a bunch of files.
+* Responsive templates. Looking good on mobile, tablet, and desktop.
+* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
+* Minimal embellishments and subtle animations.
+* Optional large feature images for posts and pages.
+* [Custom 404 page](http://mmistakes.github.io/so-simple-theme/404.html) to get you started.
+* Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
+* Support for Disqus Comments
 
-This is just a starter theme!
+![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
 
+See a [live version of So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
+
+---
 
 ## Getting Started
 
-To start coding away, first clone this repo...
+So Simple takes advantage of Sass and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
 
-```
-git clone https://github.com/scotch-io/scotch-io.github.io my-blog
-cd my-blog
-```
+To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/) for more information.
 
-Then run Jekyll (if you don't have Jekyll installed, see the tutorial or docs):
-
-```
-jekyll serve
-```
-
-Change `url` in `_data/global.yml` to:
-
-```
-http://127.0.0.1:4000
-```
-
-Start coding.
-
-
-
-## Docs
-
-Read the tutorial!
-
-
-
-## MIT License
-
-Copyright (c) 2015-2016 Nicholas Cerminara, scotch.io, LLC
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-
-
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 

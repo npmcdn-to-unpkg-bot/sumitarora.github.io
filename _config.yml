@@ -1,72 +1,56 @@
-# Where things are
-source:      .
-destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
-data_source: ./_data
-collections: null
+# Site wide configuration
 
-# Handling Reading
-safe:         false
-include:      [".htaccess"]
-exclude:      []
-keep_files:   [".git", ".svn"]
-encoding:     "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+title: Mentations About Web
+locale: en_US
+# description: Describe your website here.
+# logo: site-logo.png
+search: true
+url: http://www.arorasumit.com/
 
-# Filtering Content
-show_drafts: null
-limit_posts: 0
-future:      true
-unpublished: false
+# Jekyll configuration
 
-# Plugins
-whitelist: []
-gems:      []
-
-# Conversion
+permalink:   /:categories/:title/
 markdown:    kramdown
 highlighter: pygments
-lsi:         false
-excerpt_separator: "\n\n"
-
-# Serving
-detach:  false
-port:    4000
-host:    127.0.0.1
-baseurl: "" # does not include hostname
-
-# Outputting
-permalink:     /:title.html
-paginate: 10
-paginate_path: /page:num
-timezone:      null
-
-quiet:    false
-defaults: []
-
-# Markdown Processors
-rdiscount:
-  extensions: []
-
-redcarpet:
-  extensions: []
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
 
 kramdown:
-  auto_ids:       true
-  footnote_nr:    1
-  entity_output:  as_char
-  toc_levels:     1..6
-  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..2
   enable_coderay: false
 
-  coderay:
-    coderay_wrap:              div
-    coderay_line_numbers:      inline
-    coderay_line_number_start: 1
-    coderay_tab_width:         4
-    coderay_bold_every:        10
-    coderay_css:               style
+mathjax: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
 
-include: ['_pages']
+# Site owner
+owner:
+  name: Sumit Arora
+  # avatar: bio-photo.jpg
+  email: er.sumitarora@gmail.com
+  # disqus-shortname:
+  twitter: sumitarora
+  # facebook: #username
+  github: sumitarora
+  # stackexchange: #http://stackoverflow.com/users/123456/username
+  # linkedin: #username
+  # instagram: #username
+  # flickr: #username
+  # tumblr: #username
+  # pinterest: #username
+  # weibo: #userid
+  # google:
+  #   plus: #username
+  #   analytics:
+  #   verify:
+  #   ad-client:
+  #   ad-slot:
+  # bing-verify:
