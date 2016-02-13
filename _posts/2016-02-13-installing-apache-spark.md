@@ -84,7 +84,8 @@ Once the installation is done you are ready to write your first spark job
 
 Apache Spark logs print lot of information by default which is very low level and not of much use. We can reduce it by changing the configuration properties for spark.
 
-To do the configurations
+To do the configurations:-
+
 * Go to conf folder in Apache Spark installation `<path>\spark\conf`
 * Rename the file `log4j.properties.template` to `log4j.properties`
 * Change the property value for `log4j.rootCategory` from `INFO` to `WARN` as shown below
