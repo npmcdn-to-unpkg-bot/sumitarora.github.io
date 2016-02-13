@@ -4,7 +4,7 @@ title: "Introduction to Apache Spark"
 modified:
 categories: blog
 excerpt:
-tags: [apache spark, introduction, hadoop, map reduce, bug data]
+tags: [apache spark, introduction]
 image:
   feature:
 date: 2016-02-05
