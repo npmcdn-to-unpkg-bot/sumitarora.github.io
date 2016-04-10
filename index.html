@@ -1,12 +1,37 @@
----
-layout: page
-title: Latest Posts
-excerpt: "A simple and clean responsive Jekyll theme for words and photos."
-search_omit: true
----
+<!DOCTYPE html>
+<html class="full-height">
+<meta charset="utf-8">
+<title>Bassdock</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="bassdock.css" rel="stylesheet">
+<link href="https://npmcdn.com/basscss@8.0.0-beta5/css/basscss.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet" type="text/css">
 
-<ul class="post-list">
-{% for post in site.posts limit:10 %} 
-  <li><article><a href="{{ site.url }}{{ post.url }}">{{ post.title }} <span class="entry-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time></span>{% if post.excerpt %} <span class="excerpt">{{ post.excerpt }}</span>{% endif %}</a></article></li>
-{% endfor %}
-</ul>
+<body class="full-height">
+  <div class="full-height">
+  <div class="flex flex-column mx4 vcenter">
+    <p class="center title">Hi, I am Sumit Arora</p>
+    <p class="center company">a full stack developer at rangle.io</p>
+    <div class="center m3">
+      <a href="https://twitter.com/arorasumit" target="_blank">
+        <i class="fa fa-twitter fa-3x"></i>
+      </a>
+      <span class="mx1"></span>
+      <a href="https://github.com/sumitarora" target="_blank">
+        <i class="fa fa-github fa-3x"></i>
+      </a>
+      <span class="mx1"></span>
+      <a href="https://linkedin.com/in/arorasumit85" target="_blank">
+        <i class="fa fa-linkedin fa-3x"></i>
+      </a>
+      <span class="mx1"></span>
+      <a href="mailto:er.sumitarora@gmail.com" target="_blank">
+        <i class="fa fa-envelope-o fa-3x"></i>
+      </a>
+    </div>
+  </div>
+  </div>
+
+</body>
+</html>

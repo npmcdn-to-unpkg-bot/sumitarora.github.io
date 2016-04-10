@@ -1,0 +1,37 @@
+.full-height {
+  height:100%;
+}
+body {
+  font-family: 'Roboto Slab';
+  margin: 0px;
+  padding: 0px;
+  color: #fff;
+  background-color: #38A5DB;
+}
+
+.title {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-size: 70px;
+}
+
+.company {
+  margin: 0px;
+  padding: 0px;
+  font-size: 35px;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.vcenter{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
